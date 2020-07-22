@@ -7,6 +7,7 @@
 //
 
 #import "JTAppDelegate.h"
+#import "JTRouterLib.h"
 
 @implementation JTAppDelegate
 
@@ -41,6 +42,20 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+
+    NSString *str = url.absoluteString;
+    
+    NSArray *arr = [str componentsSeparatedByString:@"://"];
+    
+    // 使用路由进行操作 可以控制跳转到指定的VC
+    if ([[arr.firstObject lowercaseString] isEqualToString:@"jtrouter"]) {
+        return [JTRouter openURL:str];
+    }
+    
+    return YES;
 }
 
 @end

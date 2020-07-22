@@ -3,6 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'JTRouterLib_Example' do
+  pod 'JLRoutes'
   pod 'JTRouterLib', :path => '../'
 
   target 'JTRouterLib_Tests' do

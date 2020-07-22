@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JTRouterLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JTRouterLib.'
+  s.summary          = '主要用于APP的路由'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lushitong/JTRouterLib'
+  s.homepage         = 'https://github.com/Moshimol/JTRouterLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lushitong' => 'lushitong@qq.com' }
-  s.source           = { :git => 'https://github.com/lushitong/JTRouterLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Moshimol/JTRouterLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 主要依赖于JLRouter
+  
+  s.dependency  'JLRoutes'
+  
 end

@@ -1,0 +1,27 @@
+{
+  "name": "JTRouterLib",
+  "version": "0.1.0",
+  "summary": "主要用于APP的路由",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Moshimol/JTRouterLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lushitong": "lushitong@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Moshimol/JTRouterLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JTRouterLib/Classes/**/*",
+  "dependencies": {
+    "JLRoutes": [
+
+    ]
+  }
+}

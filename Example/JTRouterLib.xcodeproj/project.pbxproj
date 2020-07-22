@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0A834059CC58074E936B4E54 /* Pods-JTRouterLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTRouterLib_Example.release.xcconfig"; path = "Target Support Files/Pods-JTRouterLib_Example/Pods-JTRouterLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		50EE65A743BA71D545D78936 /* JTRouterLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JTRouterLib.podspec; path = ../JTRouterLib.podspec; sourceTree = "<group>"; };
+		50EE65A743BA71D545D78936 /* JTRouterLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JTRouterLib.podspec; path = ../JTRouterLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* JTRouterLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTRouterLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +62,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83959FCF7E107C6FCCC7FF9D /* Pods-JTRouterLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTRouterLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JTRouterLib_Tests/Pods-JTRouterLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4292B57FD9121F0E3F54739 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D62CA2534630E62F55B8F63A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C4292B57FD9121F0E3F54739 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D62CA2534630E62F55B8F63A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DB2FA15DD3686BBF5DBEB6B3 /* Pods-JTRouterLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTRouterLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-JTRouterLib_Tests/Pods-JTRouterLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E060123210FDB55444A44F84 /* Pods_JTRouterLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTRouterLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2E4245EA20491570E0060E /* Pods-JTRouterLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTRouterLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-JTRouterLib_Example/Pods-JTRouterLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				83959FCF7E107C6FCCC7FF9D /* Pods-JTRouterLib_Tests.debug.xcconfig */,
 				DB2FA15DD3686BBF5DBEB6B3 /* Pods-JTRouterLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -343,10 +343,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JTRouterLib_Example/Pods-JTRouterLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JLRoutes/JLRoutes.framework",
 				"${BUILT_PRODUCTS_DIR}/JTRouterLib/JTRouterLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLRoutes.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTRouterLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

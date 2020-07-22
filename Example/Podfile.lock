@@ -1,0 +1,32 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JLRoutes (2.1)
+  - JTRouterLib (0.1.0):
+    - JLRoutes
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JLRoutes
+  - JTRouterLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - JLRoutes
+
+EXTERNAL SOURCES:
+  JTRouterLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  JTRouterLib: a99bc8370abbd3ac077eec2074f24a0bc704dad9
+
+PODFILE CHECKSUM: 810c7c9249c20e2f6548f28f2fd450965fb9f899
+
+COCOAPODS: 1.9.3

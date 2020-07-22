@@ -1,0 +1,1314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E6D6F675A77821CC18917CFFE721A5 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0125193F2CE2B3130E202CB468759270 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5EE2477F24BF58660BF96863944847 /* JLRoutes.m */; };
+		0FD2657CBC38D103A0074EFBD3AC2FA1 /* Pods-JTRouterLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AB70D24B133B3A94E66E7293ACBC5B /* Pods-JTRouterLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 720627C4BC0FE6FFEAF7DD5023669B64 /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F530B721643D3824DCD456C0231E3 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFDEC598947740C54720E7A76745134 /* QuartzCore.framework */; };
+		27AD2A1A06E6BD22077A0D848F74D1E4 /* JTRouterLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C4EA544DD0E58C591A0B24D2F49205 /* JTRouterLib-dummy.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A4F7D9E713C8CF92AF844BC75989F8 /* UIImage+Compare.m */; };
+		35E0A3A14138D358A3004C7726FFE6D3 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D31DBC1ED25C3065252DC22B64DF790 /* JLRParsingUtilities.m */; };
+		36EECEDBC33A687A138E4BEBFCF29832 /* JLRoutes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C45B4987AE7F260ED78C79F43E3B060 /* JLRoutes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E562D62C0C1CBB60F1136464161906E /* JTRouterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF7EE9E32EEF1C8B099DDCB4836F037 /* JTRouterConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 82174AF1BE8F04FCD6B7F01A5467BAF5 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4317F03A36E76F7AC1D8BB6F56E2EBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E11A466B0E89278BE55A4A4038EC44 /* Foundation.framework */; };
+		4B96B7949D20C9140EDC36EE0FB34B73 /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3BD45213CBB03E29563DCEF96B325B /* JLRRouteDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB4CA90CF62A51E973C03C38BEC9749 /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBDB54B20865357F530F10CC4E6AE32 /* JLRParsingUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59372E91CEFC63F72CCB341C9A536535 /* JTRouterLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F47E6332F37945FAD7278A30E0FC1CA /* JTRouterLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6774F4AB64467CA04D61E6534D2A70DC /* UIViewController+JTRouterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A12F957364D3744DF876E291AE8DE547 /* UIViewController+JTRouterTool.m */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D0C8B23F9A502E1F3F6D6F5943D950 /* XCTest.framework */; };
+		6AF77B5D81B8D791621C38F48F463C15 /* JTRouter+Handle.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EBE23111486E8E2AE399088BF5CE39 /* JTRouter+Handle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B358FEECC978014321E943FBCE3E7A8 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A2ED6A189C8DE7172F422A41E27E5FC5 /* JLRRouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1FC46BFD7FD7AF02E6082F875A500 /* FBSnapshotTestCase-dummy.m */; };
+		6F7B9A2ACE3DEE6C4D83F3C0ADE1E677 /* JTRouterLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF612EFF03245DBAFFED7366BFDF970D /* JTRouterLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F11C9E3692C5137A3DDB521FDAF6D6 /* JTRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F65E5FF8302085D1EBE9EC9A203EC /* JTRouterConfig.m */; };
+		761765E0CA67C90F93E06FDE3AE947F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E11A466B0E89278BE55A4A4038EC44 /* Foundation.framework */; };
+		776E1A92DCF8A4AFFB8440EFD443113C /* JTRouter+Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C36A851CA9B4D58684D39F7ADCF406D /* JTRouter+Handle.m */; };
+		796ECB64360F95341066324CB0128F43 /* JTRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E1B629B95D9027DA637635AE5899E /* JTRouter.m */; };
+		79C1B82A5E24CEA27B322A366991C63E /* UIViewController+JTRouterTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5223C8CC84B89304CA9482A407AD753C /* UIViewController+JTRouterTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8729DF5DDE358EB12F636ADF45D3FD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E11A466B0E89278BE55A4A4038EC44 /* Foundation.framework */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E36ED4E36E3F0BCA61889B4196F8FD1 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6164F31BBC5C9EAB2CF810DB74966A58 /* FBSnapshotTestCase.m */; };
+		8FED38754C3D0DBE3E9828E2C1B8A7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E11A466B0E89278BE55A4A4038EC44 /* Foundation.framework */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE78903DCAB7E082C77C32997428F688 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		918C894667807974B80B5F6504E5B48E /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B96AA448CF02ECFD186BCAB63F16440 /* JLRoutes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A84732C7B32C2DF76ADEDA8F069B4 /* SwiftSupport.swift */; };
+		A0499EF0577F64DB374C97E14916A116 /* JLRRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C36E1A1A27DB3491F20C579AD4EB9330 /* JLRRouteHandler.m */; };
+		A49CABC9087355456E30B703C69E155A /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 002C03C8D2DB53E898387D5ABCBCD93A /* JLRRouteResponse.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C9960AE63AD01D5CA7E47588A8A9A2F8 /* UIImage+Snapshot.m */; };
+		AE7DF90FA1EF3C1B112004B5360F746A /* JTRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = EBCB9FA72E2A45FBB938476386B8F0BA /* JTRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E11A466B0E89278BE55A4A4038EC44 /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5962B304D4388152DA4A21E958689C /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B82A5D68D986C31F2C8DD8F32567F95E /* JLRoutes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9534FA1ED7CFBADBD7F9D43F639873EB /* JLRoutes-dummy.m */; };
+		B968B2F40C75DCFD7305A4790C627993 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DB2BFDD06BFB15655C633BBD6F0152 /* JLRRouteDefinition.m */; };
+		BBF3AD3817F357C22801997F28E0CC9A /* Pods-JTRouterLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 190A1F964EB1920211D0DB3FA6FE1719 /* Pods-JTRouterLib_Example-dummy.m */; };
+		C1A3E4A41868C1538D0AB988F3E0AA30 /* Pods-JTRouterLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED8F03AB6F59AE5C9C7395C4E95D3EC /* Pods-JTRouterLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3032F8266264D5B4D1B36853ABDDA40F /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = ED02586992276CA12444E7950BB1C0E0 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D48C358B723474D5E82AF16C0850CE42 /* JLRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0933933BA9978657D03024C091A5350 /* JLRoutes.framework */; };
+		DAC25556655D561E3A7D783D0E24EC3F /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 12AC99733692EB1A32490A105E5BC163 /* JLRRouteHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648518A153F8CA67519DE295034F1801 /* UIKit.framework */; };
+		E350CD07E06EEC066A4C90E5A8BF434D /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA0E66BB71962034661641D11AB0D3 /* JLRRouteRequest.m */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = F2810B93A6D265A12B7A0AA196B2F622 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E48DD41E27510DE372610A0952F2506 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F2637F56BC755B25DC5C0FCA3F7A9F16 /* Pods-JTRouterLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1763C3A4CE26A795ECD8D0BE6C3BD2 /* Pods-JTRouterLib_Tests-dummy.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 609A7DC4FDC49407E0DE373E2ABE260D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7617878B6BE4EE0B8153F13FF6C53A1 /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F33D0D0146416F9872B9B0BFB74856B0 /* JLRRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5214F431DBE6C8141233264C6A708218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3937BFD096C84DDDC301AE51A0D77270;
+			remoteInfo = "Pods-JTRouterLib_Example";
+		};
+		86323C6B4D29E25474075EC90543016B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C1BAA17BCEBC27586488A205D2E0CB;
+			remoteInfo = JLRoutes;
+		};
+		E1F5F5B0AF25839645E4BF4EF85A1A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C1BAA17BCEBC27586488A205D2E0CB;
+			remoteInfo = JLRoutes;
+		};
+		E57E1A18092FF99B508FB4D8E1ED4DD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4066E00F00FDD628CF3774C7586ED23F;
+			remoteInfo = JTRouterLib;
+		};
+		F891C8883F6C58561C6644F6B71A4B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002C03C8D2DB53E898387D5ABCBCD93A /* JLRRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteResponse.m; path = JLRoutes/Classes/JLRRouteResponse.m; sourceTree = "<group>"; };
+		005698A6D6E414129FD643B5CCC4759F /* Pods-JTRouterLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTRouterLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		050AAAB8D745A21ADF5F5F9A62189A86 /* Pods-JTRouterLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTRouterLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AF7EE9E32EEF1C8B099DDCB4836F037 /* JTRouterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTRouterConfig.h; path = JTRouterLib/Classes/JTRouter/JTRouterConfig.h; sourceTree = "<group>"; };
+		12AC99733692EB1A32490A105E5BC163 /* JLRRouteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteHandler.h; path = JLRoutes/Classes/JLRRouteHandler.h; sourceTree = "<group>"; };
+		190A1F964EB1920211D0DB3FA6FE1719 /* Pods-JTRouterLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTRouterLib_Example-dummy.m"; sourceTree = "<group>"; };
+		1A10FF014799B032F1ED6F791095DD5C /* Pods-JTRouterLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTRouterLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		227E1B629B95D9027DA637635AE5899E /* JTRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTRouter.m; path = JTRouterLib/Classes/JTRouter/JTRouter.m; sourceTree = "<group>"; };
+		241F667AA67712614EA7EA24C585AC72 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		27A273CD72B1DCA026FF129AE4879CE7 /* Pods-JTRouterLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTRouterLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C36A851CA9B4D58684D39F7ADCF406D /* JTRouter+Handle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JTRouter+Handle.m"; path = "JTRouterLib/Classes/JTRouter/JTRouter+Handle.m"; sourceTree = "<group>"; };
+		2F8F8D65344F722166B113B14BAA45A5 /* Pods-JTRouterLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JTRouterLib_Tests.modulemap"; sourceTree = "<group>"; };
+		3032F8266264D5B4D1B36853ABDDA40F /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		3164D7A2501C014F848DF5F5453CC4A2 /* Pods-JTRouterLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JTRouterLib_Example.modulemap"; sourceTree = "<group>"; };
+		3D31DBC1ED25C3065252DC22B64DF790 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRParsingUtilities.m; path = JLRoutes/Classes/JLRParsingUtilities.m; sourceTree = "<group>"; };
+		3E48DD41E27510DE372610A0952F2506 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		3ED8F03AB6F59AE5C9C7395C4E95D3EC /* Pods-JTRouterLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTRouterLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		42A6F64586AC8A073EE137B81943EEEB /* JLRoutes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-prefix.pch"; sourceTree = "<group>"; };
+		4360B1B44198D6E3DE4DBEC75BD698DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		50B9C40430B0D66F3259EBDC3E90C6E0 /* JLRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.debug.xcconfig; sourceTree = "<group>"; };
+		50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLRoutes.framework; path = JLRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5223C8CC84B89304CA9482A407AD753C /* UIViewController+JTRouterTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JTRouterTool.h"; path = "JTRouterLib/Classes/JTRouter/UIViewController+JTRouterTool.h"; sourceTree = "<group>"; };
+		590F4ACE4EB34F923984B9E48C70D4BC /* JTRouterLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTRouterLib.framework; path = JTRouterLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C45B4987AE7F260ED78C79F43E3B060 /* JLRoutes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-umbrella.h"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E81D093AE0723346C5106937E9DE7FB /* JTRouterLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTRouterLib.release.xcconfig; sourceTree = "<group>"; };
+		5FCCDEAAD1E2D51CAE1AAD8977ECD1DC /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		5FF1FC46BFD7FD7AF02E6082F875A500 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		609A7DC4FDC49407E0DE373E2ABE260D /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		6164F31BBC5C9EAB2CF810DB74966A58 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		61E0BE4F2ECF20D1C03CB9D0BFFC5A73 /* JLRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.release.xcconfig; sourceTree = "<group>"; };
+		648518A153F8CA67519DE295034F1801 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		68B0188466DECED45792D8F134D4710C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6A553D446D313D329AA3A331F56F749A /* Pods_JTRouterLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JTRouterLib_Tests.framework; path = "Pods-JTRouterLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B96AA448CF02ECFD186BCAB63F16440 /* JLRoutes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRoutes.h; path = JLRoutes/JLRoutes.h; sourceTree = "<group>"; };
+		6F3A84732C7B32C2DF76ADEDA8F069B4 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		6F47E6332F37945FAD7278A30E0FC1CA /* JTRouterLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTRouterLib.h; path = JTRouterLib/Classes/JTRouter/JTRouterLib.h; sourceTree = "<group>"; };
+		720627C4BC0FE6FFEAF7DD5023669B64 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		72DB3172E07F10F4A8631231BA597541 /* JTRouterLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTRouterLib.debug.xcconfig; sourceTree = "<group>"; };
+		7CDBA8E5B4708C7E5EFD2A23AFFF7358 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		7E1D78C5B447B182A8475D1720FC9E52 /* Pods-JTRouterLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTRouterLib_Example-Info.plist"; sourceTree = "<group>"; };
+		7E36ED4E36E3F0BCA61889B4196F8FD1 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7F3BD45213CBB03E29563DCEF96B325B /* JLRRouteDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteDefinition.h; path = JLRoutes/Classes/JLRRouteDefinition.h; sourceTree = "<group>"; };
+		82174AF1BE8F04FCD6B7F01A5467BAF5 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		88DB2BFDD06BFB15655C633BBD6F0152 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteDefinition.m; path = JLRoutes/Classes/JLRRouteDefinition.m; sourceTree = "<group>"; };
+		89D8DE2A1ACB544588738DFC0E4C0810 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		8CDA0E66BB71962034661641D11AB0D3 /* JLRRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteRequest.m; path = JLRoutes/Classes/JLRRouteRequest.m; sourceTree = "<group>"; };
+		93C4EA544DD0E58C591A0B24D2F49205 /* JTRouterLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTRouterLib-dummy.m"; sourceTree = "<group>"; };
+		94C1CFD1EA879F954BD66D40B25C2427 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		9534FA1ED7CFBADBD7F9D43F639873EB /* JLRoutes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes-dummy.m"; sourceTree = "<group>"; };
+		9863F6A7B8C28A7A728A10D9691E81F5 /* Pods-JTRouterLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTRouterLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99E6D6F675A77821CC18917CFFE721A5 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		9A8E46AE210FD57BD08C6F1B78C88B34 /* JLRoutes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLRoutes.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A12F957364D3744DF876E291AE8DE547 /* UIViewController+JTRouterTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JTRouterTool.m"; path = "JTRouterLib/Classes/JTRouter/UIViewController+JTRouterTool.m"; sourceTree = "<group>"; };
+		A2ED6A189C8DE7172F422A41E27E5FC5 /* JLRRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteResponse.h; path = JLRoutes/Classes/JLRRouteResponse.h; sourceTree = "<group>"; };
+		A4CC4A8703C2EA6E2B1C6F1D619E0035 /* Pods_JTRouterLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JTRouterLib_Example.framework; path = "Pods-JTRouterLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8200DB115B94D1BE9FE46A6998171BC /* Pods-JTRouterLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTRouterLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A921D5CACDBCE9EB1512D3EE2F35F1FF /* Pods-JTRouterLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTRouterLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0933933BA9978657D03024C091A5350 /* JLRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A4F7D9E713C8CF92AF844BC75989F8 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		B750B204B310553A3FEFD59EE105606D /* Pods-JTRouterLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTRouterLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C36E1A1A27DB3491F20C579AD4EB9330 /* JLRRouteHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteHandler.m; path = JLRoutes/Classes/JLRRouteHandler.m; sourceTree = "<group>"; };
+		C5F38DD6EEACB10D13E92900A1B687E8 /* JTRouterLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTRouterLib.modulemap; sourceTree = "<group>"; };
+		C7699E87BE9A183FB7133B8346EF5A76 /* JTRouterLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JTRouterLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9960AE63AD01D5CA7E47588A8A9A2F8 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		CA1D4C4FA1D43DC671E2D7FD9012DEF0 /* JTRouterLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JTRouterLib-Info.plist"; sourceTree = "<group>"; };
+		CC1763C3A4CE26A795ECD8D0BE6C3BD2 /* Pods-JTRouterLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTRouterLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		CDBDB54B20865357F530F10CC4E6AE32 /* JLRParsingUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRParsingUtilities.h; path = JLRoutes/Classes/JLRParsingUtilities.h; sourceTree = "<group>"; };
+		D1AB70D24B133B3A94E66E7293ACBC5B /* Pods-JTRouterLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTRouterLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		D5EBE23111486E8E2AE399088BF5CE39 /* JTRouter+Handle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JTRouter+Handle.h"; path = "JTRouterLib/Classes/JTRouter/JTRouter+Handle.h"; sourceTree = "<group>"; };
+		D8A175D02A918FB86939198DD2A679B1 /* Pods-JTRouterLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTRouterLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D94F65E5FF8302085D1EBE9EC9A203EC /* JTRouterConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTRouterConfig.m; path = JTRouterLib/Classes/JTRouter/JTRouterConfig.m; sourceTree = "<group>"; };
+		DA5962B304D4388152DA4A21E958689C /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		DF612EFF03245DBAFFED7366BFDF970D /* JTRouterLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTRouterLib-umbrella.h"; sourceTree = "<group>"; };
+		E1D0C8B23F9A502E1F3F6D6F5943D950 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E49F6E7D332724CCB258478B22D38F1D /* Pods-JTRouterLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTRouterLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		EA3F530B721643D3824DCD456C0231E3 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		EBCB9FA72E2A45FBB938476386B8F0BA /* JTRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTRouter.h; path = JTRouterLib/Classes/JTRouter/JTRouter.h; sourceTree = "<group>"; };
+		ED02586992276CA12444E7950BB1C0E0 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		EE78903DCAB7E082C77C32997428F688 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		EFCD5F1B761B89BEF6B3D8216765AA12 /* Pods-JTRouterLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTRouterLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F170367EF86C0B232F50394DC8E69696 /* JLRoutes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLRoutes-Info.plist"; sourceTree = "<group>"; };
+		F2810B93A6D265A12B7A0AA196B2F622 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		F33D0D0146416F9872B9B0BFB74856B0 /* JLRRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteRequest.h; path = JLRoutes/Classes/JLRRouteRequest.h; sourceTree = "<group>"; };
+		F7816463A110CE8DFDF3AD9E9D972117 /* JTRouterLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTRouterLib-prefix.pch"; sourceTree = "<group>"; };
+		F8E11A466B0E89278BE55A4A4038EC44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA5EE2477F24BF58660BF96863944847 /* JLRoutes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRoutes.m; path = JLRoutes/JLRoutes.m; sourceTree = "<group>"; };
+		FCFDEC598947740C54720E7A76745134 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8F500BE23EC9D7D5A920379E0D2A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4317F03A36E76F7AC1D8BB6F56E2EBC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228F2A325E70C7409540F42BB20CA5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8729DF5DDE358EB12F636ADF45D3FD6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDCB3367CCF9A5FFEE7C3F07913B955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761765E0CA67C90F93E06FDE3AE947F9 /* Foundation.framework in Frameworks */,
+				D48C358B723474D5E82AF16C0850CE42 /* JLRoutes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC99D003DDB4EE2704711F589F28D6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FED38754C3D0DBE3E9828E2C1B8A7AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF43B71398C6980F33E8AA704E2BD01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9DEE79ED82EF2F023DA1FAC0335BA /* FBSnapshotTestCase */,
+				B6D99AC6055C8C7B6BE3C8D2E0C023E2 /* JLRoutes */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E01D896D4740C8BBF0587736E34755D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5F38DD6EEACB10D13E92900A1B687E8 /* JTRouterLib.modulemap */,
+				93C4EA544DD0E58C591A0B24D2F49205 /* JTRouterLib-dummy.m */,
+				CA1D4C4FA1D43DC671E2D7FD9012DEF0 /* JTRouterLib-Info.plist */,
+				F7816463A110CE8DFDF3AD9E9D972117 /* JTRouterLib-prefix.pch */,
+				DF612EFF03245DBAFFED7366BFDF970D /* JTRouterLib-umbrella.h */,
+				72DB3172E07F10F4A8631231BA597541 /* JTRouterLib.debug.xcconfig */,
+				5E81D093AE0723346C5106937E9DE7FB /* JTRouterLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JTRouterLib";
+			sourceTree = "<group>";
+		};
+		13D8816605744A68D4A6C9A2932DCA97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8E46AE210FD57BD08C6F1B78C88B34 /* JLRoutes.modulemap */,
+				9534FA1ED7CFBADBD7F9D43F639873EB /* JLRoutes-dummy.m */,
+				F170367EF86C0B232F50394DC8E69696 /* JLRoutes-Info.plist */,
+				42A6F64586AC8A073EE137B81943EEEB /* JLRoutes-prefix.pch */,
+				5C45B4987AE7F260ED78C79F43E3B060 /* JLRoutes-umbrella.h */,
+				50B9C40430B0D66F3259EBDC3E90C6E0 /* JLRoutes.debug.xcconfig */,
+				61E0BE4F2ECF20D1C03CB9D0BFFC5A73 /* JLRoutes.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLRoutes";
+			sourceTree = "<group>";
+		};
+		3737061F1C5B664D9332A47C83AA3F7E /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				6F3A84732C7B32C2DF76ADEDA8F069B4 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		3FD96A9BD6320CB0047D31E21A8DCF3E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				99E6D6F675A77821CC18917CFFE721A5 /* FBSnapshotTestCase.h */,
+				6164F31BBC5C9EAB2CF810DB74966A58 /* FBSnapshotTestCase.m */,
+				3032F8266264D5B4D1B36853ABDDA40F /* FBSnapshotTestCasePlatform.h */,
+				F2810B93A6D265A12B7A0AA196B2F622 /* FBSnapshotTestCasePlatform.m */,
+				EE78903DCAB7E082C77C32997428F688 /* FBSnapshotTestController.h */,
+				7E36ED4E36E3F0BCA61889B4196F8FD1 /* FBSnapshotTestController.m */,
+				82174AF1BE8F04FCD6B7F01A5467BAF5 /* UIApplication+StrictKeyWindow.h */,
+				720627C4BC0FE6FFEAF7DD5023669B64 /* UIApplication+StrictKeyWindow.m */,
+				3E48DD41E27510DE372610A0952F2506 /* UIImage+Compare.h */,
+				B1A4F7D9E713C8CF92AF844BC75989F8 /* UIImage+Compare.m */,
+				ED02586992276CA12444E7950BB1C0E0 /* UIImage+Diff.h */,
+				EA3F530B721643D3824DCD456C0231E3 /* UIImage+Diff.m */,
+				DA5962B304D4388152DA4A21E958689C /* UIImage+Snapshot.h */,
+				C9960AE63AD01D5CA7E47588A8A9A2F8 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		4DF9DEE79ED82EF2F023DA1FAC0335BA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3FD96A9BD6320CB0047D31E21A8DCF3E /* Core */,
+				703A45E5A73B850C814B5193CB8C5820 /* Support Files */,
+				3737061F1C5B664D9332A47C83AA3F7E /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		60E3892CC38D3F93765024DAA26EA1C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7699E87BE9A183FB7133B8346EF5A76 /* JTRouterLib.podspec */,
+				4360B1B44198D6E3DE4DBEC75BD698DC /* LICENSE */,
+				68B0188466DECED45792D8F134D4710C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		61C0F9A9429B5BD88FBC5280F3453710 /* JTRouterLib */ = {
+			isa = PBXGroup;
+			children = (
+				EBCB9FA72E2A45FBB938476386B8F0BA /* JTRouter.h */,
+				227E1B629B95D9027DA637635AE5899E /* JTRouter.m */,
+				D5EBE23111486E8E2AE399088BF5CE39 /* JTRouter+Handle.h */,
+				2C36A851CA9B4D58684D39F7ADCF406D /* JTRouter+Handle.m */,
+				0AF7EE9E32EEF1C8B099DDCB4836F037 /* JTRouterConfig.h */,
+				D94F65E5FF8302085D1EBE9EC9A203EC /* JTRouterConfig.m */,
+				6F47E6332F37945FAD7278A30E0FC1CA /* JTRouterLib.h */,
+				5223C8CC84B89304CA9482A407AD753C /* UIViewController+JTRouterTool.h */,
+				A12F957364D3744DF876E291AE8DE547 /* UIViewController+JTRouterTool.m */,
+				60E3892CC38D3F93765024DAA26EA1C9 /* Pod */,
+				0E01D896D4740C8BBF0587736E34755D /* Support Files */,
+			);
+			name = JTRouterLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		703A45E5A73B850C814B5193CB8C5820 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				241F667AA67712614EA7EA24C585AC72 /* FBSnapshotTestCase.modulemap */,
+				5FF1FC46BFD7FD7AF02E6082F875A500 /* FBSnapshotTestCase-dummy.m */,
+				89D8DE2A1ACB544588738DFC0E4C0810 /* FBSnapshotTestCase-Info.plist */,
+				5FCCDEAAD1E2D51CAE1AAD8977ECD1DC /* FBSnapshotTestCase-prefix.pch */,
+				609A7DC4FDC49407E0DE373E2ABE260D /* FBSnapshotTestCase-umbrella.h */,
+				94C1CFD1EA879F954BD66D40B25C2427 /* FBSnapshotTestCase.debug.xcconfig */,
+				7CDBA8E5B4708C7E5EFD2A23AFFF7358 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		7E20DD87AC42A54A65C6BE313921B08F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB849B68290D99FC814A1CE31CD353FA /* Pods-JTRouterLib_Example */,
+				857E6AC17FFF4B69AB2A39F659FF34EE /* Pods-JTRouterLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8412E146E89CABC783A39A3C74968312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes.framework */,
+				590F4ACE4EB34F923984B9E48C70D4BC /* JTRouterLib.framework */,
+				A4CC4A8703C2EA6E2B1C6F1D619E0035 /* Pods_JTRouterLib_Example.framework */,
+				6A553D446D313D329AA3A331F56F749A /* Pods_JTRouterLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857E6AC17FFF4B69AB2A39F659FF34EE /* Pods-JTRouterLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F8D65344F722166B113B14BAA45A5 /* Pods-JTRouterLib_Tests.modulemap */,
+				A921D5CACDBCE9EB1512D3EE2F35F1FF /* Pods-JTRouterLib_Tests-acknowledgements.markdown */,
+				050AAAB8D745A21ADF5F5F9A62189A86 /* Pods-JTRouterLib_Tests-acknowledgements.plist */,
+				CC1763C3A4CE26A795ECD8D0BE6C3BD2 /* Pods-JTRouterLib_Tests-dummy.m */,
+				1A10FF014799B032F1ED6F791095DD5C /* Pods-JTRouterLib_Tests-frameworks.sh */,
+				E49F6E7D332724CCB258478B22D38F1D /* Pods-JTRouterLib_Tests-Info.plist */,
+				3ED8F03AB6F59AE5C9C7395C4E95D3EC /* Pods-JTRouterLib_Tests-umbrella.h */,
+				9863F6A7B8C28A7A728A10D9691E81F5 /* Pods-JTRouterLib_Tests.debug.xcconfig */,
+				27A273CD72B1DCA026FF129AE4879CE7 /* Pods-JTRouterLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-JTRouterLib_Tests";
+			path = "Target Support Files/Pods-JTRouterLib_Tests";
+			sourceTree = "<group>";
+		};
+		B6D99AC6055C8C7B6BE3C8D2E0C023E2 /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				6B96AA448CF02ECFD186BCAB63F16440 /* JLRoutes.h */,
+				FA5EE2477F24BF58660BF96863944847 /* JLRoutes.m */,
+				CDBDB54B20865357F530F10CC4E6AE32 /* JLRParsingUtilities.h */,
+				3D31DBC1ED25C3065252DC22B64DF790 /* JLRParsingUtilities.m */,
+				7F3BD45213CBB03E29563DCEF96B325B /* JLRRouteDefinition.h */,
+				88DB2BFDD06BFB15655C633BBD6F0152 /* JLRRouteDefinition.m */,
+				12AC99733692EB1A32490A105E5BC163 /* JLRRouteHandler.h */,
+				C36E1A1A27DB3491F20C579AD4EB9330 /* JLRRouteHandler.m */,
+				F33D0D0146416F9872B9B0BFB74856B0 /* JLRRouteRequest.h */,
+				8CDA0E66BB71962034661641D11AB0D3 /* JLRRouteRequest.m */,
+				A2ED6A189C8DE7172F422A41E27E5FC5 /* JLRRouteResponse.h */,
+				002C03C8D2DB53E898387D5ABCBCD93A /* JLRRouteResponse.m */,
+				13D8816605744A68D4A6C9A2932DCA97 /* Support Files */,
+			);
+			name = JLRoutes;
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+		C4332E6B94A87C50AB4D7931EA244910 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8E11A466B0E89278BE55A4A4038EC44 /* Foundation.framework */,
+				FCFDEC598947740C54720E7A76745134 /* QuartzCore.framework */,
+				648518A153F8CA67519DE295034F1801 /* UIKit.framework */,
+				E1D0C8B23F9A502E1F3F6D6F5943D950 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E9D91EDDDAB2B39211474BEA0B9D8E82 /* Development Pods */,
+				EE5F9B2D2B58FAC4D55CEA943E447EB6 /* Frameworks */,
+				0DF43B71398C6980F33E8AA704E2BD01 /* Pods */,
+				8412E146E89CABC783A39A3C74968312 /* Products */,
+				7E20DD87AC42A54A65C6BE313921B08F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D91EDDDAB2B39211474BEA0B9D8E82 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61C0F9A9429B5BD88FBC5280F3453710 /* JTRouterLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EB849B68290D99FC814A1CE31CD353FA /* Pods-JTRouterLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3164D7A2501C014F848DF5F5453CC4A2 /* Pods-JTRouterLib_Example.modulemap */,
+				005698A6D6E414129FD643B5CCC4759F /* Pods-JTRouterLib_Example-acknowledgements.markdown */,
+				A8200DB115B94D1BE9FE46A6998171BC /* Pods-JTRouterLib_Example-acknowledgements.plist */,
+				190A1F964EB1920211D0DB3FA6FE1719 /* Pods-JTRouterLib_Example-dummy.m */,
+				B750B204B310553A3FEFD59EE105606D /* Pods-JTRouterLib_Example-frameworks.sh */,
+				7E1D78C5B447B182A8475D1720FC9E52 /* Pods-JTRouterLib_Example-Info.plist */,
+				D1AB70D24B133B3A94E66E7293ACBC5B /* Pods-JTRouterLib_Example-umbrella.h */,
+				EFCD5F1B761B89BEF6B3D8216765AA12 /* Pods-JTRouterLib_Example.debug.xcconfig */,
+				D8A175D02A918FB86939198DD2A679B1 /* Pods-JTRouterLib_Example.release.xcconfig */,
+			);
+			name = "Pods-JTRouterLib_Example";
+			path = "Target Support Files/Pods-JTRouterLib_Example";
+			sourceTree = "<group>";
+		};
+		EE5F9B2D2B58FAC4D55CEA943E447EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0933933BA9978657D03024C091A5350 /* JLRoutes.framework */,
+				C4332E6B94A87C50AB4D7931EA244910 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A14DB4402C03229C84B34A491AB21BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF77B5D81B8D791621C38F48F463C15 /* JTRouter+Handle.h in Headers */,
+				AE7DF90FA1EF3C1B112004B5360F746A /* JTRouter.h in Headers */,
+				3E562D62C0C1CBB60F1136464161906E /* JTRouterConfig.h in Headers */,
+				6F7B9A2ACE3DEE6C4D83F3C0ADE1E677 /* JTRouterLib-umbrella.h in Headers */,
+				59372E91CEFC63F72CCB341C9A536535 /* JTRouterLib.h in Headers */,
+				79C1B82A5E24CEA27B322A366991C63E /* UIViewController+JTRouterTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66400AACE39FABC6A4FA176580AA0953 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD2657CBC38D103A0074EFBD3AC2FA1 /* Pods-JTRouterLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A4D2D1525C5E7AD98B2E8A2FE368A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A3E4A41868C1538D0AB988F3E0AA30 /* Pods-JTRouterLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BF26D6EB9AB8BC563C3B1820D359DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EECEDBC33A687A138E4BEBFCF29832 /* JLRoutes-umbrella.h in Headers */,
+				918C894667807974B80B5F6504E5B48E /* JLRoutes.h in Headers */,
+				4CB4CA90CF62A51E973C03C38BEC9749 /* JLRParsingUtilities.h in Headers */,
+				4B96B7949D20C9140EDC36EE0FB34B73 /* JLRRouteDefinition.h in Headers */,
+				DAC25556655D561E3A7D783D0E24EC3F /* JLRRouteHandler.h in Headers */,
+				F7617878B6BE4EE0B8153F13FF6C53A1 /* JLRRouteRequest.h in Headers */,
+				6B358FEECC978014321E943FBCE3E7A8 /* JLRRouteResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3937BFD096C84DDDC301AE51A0D77270 /* Pods-JTRouterLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0B40A3235FDD0D519D3801B32AE83E /* Build configuration list for PBXNativeTarget "Pods-JTRouterLib_Example" */;
+			buildPhases = (
+				66400AACE39FABC6A4FA176580AA0953 /* Headers */,
+				375078238FD682F072ACEB4AC2F6903E /* Sources */,
+				BC99D003DDB4EE2704711F589F28D6A0 /* Frameworks */,
+				A0C3AF763B09827174416A401FD67343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049D2CF749EEC8A371A46BCF6EB10C2A /* PBXTargetDependency */,
+				0D44A554A132DA8A5FEDEA5BF5EB485E /* PBXTargetDependency */,
+			);
+			name = "Pods-JTRouterLib_Example";
+			productName = "Pods-JTRouterLib_Example";
+			productReference = A4CC4A8703C2EA6E2B1C6F1D619E0035 /* Pods_JTRouterLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4066E00F00FDD628CF3774C7586ED23F /* JTRouterLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F934984C528FEE2083C528CF1BFD7496 /* Build configuration list for PBXNativeTarget "JTRouterLib" */;
+			buildPhases = (
+				3A14DB4402C03229C84B34A491AB21BF /* Headers */,
+				16BFA8489A820753780DE11442F53F05 /* Sources */,
+				ACDCB3367CCF9A5FFEE7C3F07913B955 /* Frameworks */,
+				8FD14848D46C14031B5A7F01F42BC89C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B3D38F1A41B345B2C631F73FAA6132 /* PBXTargetDependency */,
+			);
+			name = JTRouterLib;
+			productName = JTRouterLib;
+			productReference = 590F4ACE4EB34F923984B9E48C70D4BC /* JTRouterLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C088AE0249027BD8627D87D88F6116FD /* Build configuration list for PBXNativeTarget "JLRoutes" */;
+			buildPhases = (
+				E3BF26D6EB9AB8BC563C3B1820D359DA /* Headers */,
+				02FB5E150D30C877EBBC85F07317D474 /* Sources */,
+				1D8F500BE23EC9D7D5A920379E0D2A3C /* Frameworks */,
+				15DB2E12917A2E57DFF64159DFAC5B1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLRoutes;
+			productName = JLRoutes;
+			productReference = 50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E79C19E9291A5E3C232E6ADC174B6BCC /* Pods-JTRouterLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD7AAB4F258C9F6FFAB58D59B7F1086 /* Build configuration list for PBXNativeTarget "Pods-JTRouterLib_Tests" */;
+			buildPhases = (
+				93A4D2D1525C5E7AD98B2E8A2FE368A3 /* Headers */,
+				59861292B9EE4E0AE43E083463D76D74 /* Sources */,
+				228F2A325E70C7409540F42BB20CA5E0 /* Frameworks */,
+				8EB782A01CE7267454FF335881DE2A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1D1AC59FEEC0E08A8E1C0BF5985972 /* PBXTargetDependency */,
+				0BA3BF9C93D76F0C0572EE3AB7FA3A45 /* PBXTargetDependency */,
+			);
+			name = "Pods-JTRouterLib_Tests";
+			productName = "Pods-JTRouterLib_Tests";
+			productReference = 6A553D446D313D329AA3A331F56F749A /* Pods_JTRouterLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8412E146E89CABC783A39A3C74968312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */,
+				4066E00F00FDD628CF3774C7586ED23F /* JTRouterLib */,
+				3937BFD096C84DDDC301AE51A0D77270 /* Pods-JTRouterLib_Example */,
+				E79C19E9291A5E3C232E6ADC174B6BCC /* Pods-JTRouterLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DB2E12917A2E57DFF64159DFAC5B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB782A01CE7267454FF335881DE2A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD14848D46C14031B5A7F01F42BC89C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C3AF763B09827174416A401FD67343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FB5E150D30C877EBBC85F07317D474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82A5D68D986C31F2C8DD8F32567F95E /* JLRoutes-dummy.m in Sources */,
+				0125193F2CE2B3130E202CB468759270 /* JLRoutes.m in Sources */,
+				35E0A3A14138D358A3004C7726FFE6D3 /* JLRParsingUtilities.m in Sources */,
+				B968B2F40C75DCFD7305A4790C627993 /* JLRRouteDefinition.m in Sources */,
+				A0499EF0577F64DB374C97E14916A116 /* JLRRouteHandler.m in Sources */,
+				E350CD07E06EEC066A4C90E5A8BF434D /* JLRRouteRequest.m in Sources */,
+				A49CABC9087355456E30B703C69E155A /* JLRRouteResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BFA8489A820753780DE11442F53F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776E1A92DCF8A4AFFB8440EFD443113C /* JTRouter+Handle.m in Sources */,
+				796ECB64360F95341066324CB0128F43 /* JTRouter.m in Sources */,
+				70F11C9E3692C5137A3DDB521FDAF6D6 /* JTRouterConfig.m in Sources */,
+				27AD2A1A06E6BD22077A0D848F74D1E4 /* JTRouterLib-dummy.m in Sources */,
+				6774F4AB64467CA04D61E6534D2A70DC /* UIViewController+JTRouterTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375078238FD682F072ACEB4AC2F6903E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF3AD3817F357C22801997F28E0CC9A /* Pods-JTRouterLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59861292B9EE4E0AE43E083463D76D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2637F56BC755B25DC5C0FCA3F7A9F16 /* Pods-JTRouterLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049D2CF749EEC8A371A46BCF6EB10C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLRoutes;
+			target = 94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */;
+			targetProxy = 86323C6B4D29E25474075EC90543016B /* PBXContainerItemProxy */;
+		};
+		0BA3BF9C93D76F0C0572EE3AB7FA3A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JTRouterLib_Example";
+			target = 3937BFD096C84DDDC301AE51A0D77270 /* Pods-JTRouterLib_Example */;
+			targetProxy = 5214F431DBE6C8141233264C6A708218 /* PBXContainerItemProxy */;
+		};
+		0D44A554A132DA8A5FEDEA5BF5EB485E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTRouterLib;
+			target = 4066E00F00FDD628CF3774C7586ED23F /* JTRouterLib */;
+			targetProxy = E57E1A18092FF99B508FB4D8E1ED4DD7 /* PBXContainerItemProxy */;
+		};
+		CB1D1AC59FEEC0E08A8E1C0BF5985972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = F891C8883F6C58561C6644F6B71A4B41 /* PBXContainerItemProxy */;
+		};
+		F3B3D38F1A41B345B2C631F73FAA6132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLRoutes;
+			target = 94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */;
+			targetProxy = E1F5F5B0AF25839645E4BF4EF85A1A50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CC3F3FA7FF5988143FFD8CC4ACA5134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A273CD72B1DCA026FF129AE4879CE7 /* Pods-JTRouterLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JTRouterLib_Tests/Pods-JTRouterLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTRouterLib_Tests/Pods-JTRouterLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38672A8823AC892BD6A1903E4B02BE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9863F6A7B8C28A7A728A10D9691E81F5 /* Pods-JTRouterLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JTRouterLib_Tests/Pods-JTRouterLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTRouterLib_Tests/Pods-JTRouterLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C1CFD1EA879F954BD66D40B25C2427 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		55AAA926D4B4902C66D0EF8AE88FA9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E0BE4F2ECF20D1C03CB9D0BFFC5A73 /* JLRoutes.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLRoutes/JLRoutes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7224E907BACB14B7BDB26D78AA5ECB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B9C40430B0D66F3259EBDC3E90C6E0 /* JLRoutes.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLRoutes/JLRoutes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDBA8E5B4708C7E5EFD2A23AFFF7358 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D148C5F2A913348A6843C7CB48D5D1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E81D093AE0723346C5106937E9DE7FB /* JTRouterLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTRouterLib/JTRouterLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTRouterLib/JTRouterLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTRouterLib/JTRouterLib.modulemap";
+				PRODUCT_MODULE_NAME = JTRouterLib;
+				PRODUCT_NAME = JTRouterLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2E55E9F6E565C7ECE60F64AC171CE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCD5F1B761B89BEF6B3D8216765AA12 /* Pods-JTRouterLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JTRouterLib_Example/Pods-JTRouterLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTRouterLib_Example/Pods-JTRouterLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F734897C3D150916C44A4C2DD5199D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A175D02A918FB86939198DD2A679B1 /* Pods-JTRouterLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JTRouterLib_Example/Pods-JTRouterLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTRouterLib_Example/Pods-JTRouterLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC2130537AA61130DD19B02E74E07CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DB3172E07F10F4A8631231BA597541 /* JTRouterLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTRouterLib/JTRouterLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTRouterLib/JTRouterLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTRouterLib/JTRouterLib.modulemap";
+				PRODUCT_MODULE_NAME = JTRouterLib;
+				PRODUCT_NAME = JTRouterLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD7AAB4F258C9F6FFAB58D59B7F1086 /* Build configuration list for PBXNativeTarget "Pods-JTRouterLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38672A8823AC892BD6A1903E4B02BE97 /* Debug */,
+				2CC3F3FA7FF5988143FFD8CC4ACA5134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C088AE0249027BD8627D87D88F6116FD /* Build configuration list for PBXNativeTarget "JLRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7224E907BACB14B7BDB26D78AA5ECB79 /* Debug */,
+				55AAA926D4B4902C66D0EF8AE88FA9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0B40A3235FDD0D519D3801B32AE83E /* Build configuration list for PBXNativeTarget "Pods-JTRouterLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E55E9F6E565C7ECE60F64AC171CE07 /* Debug */,
+				F734897C3D150916C44A4C2DD5199D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F934984C528FEE2083C528CF1BFD7496 /* Build configuration list for PBXNativeTarget "JTRouterLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2130537AA61130DD19B02E74E07CAF /* Debug */,
+				D148C5F2A913348A6843C7CB48D5D1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
