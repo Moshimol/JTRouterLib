@@ -5,12 +5,11 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - JLRoutes (2.1)
-  - JTRouterLib (0.1.1):
+  - JTRouterLib (0.1.2):
     - JLRoutes
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - JLRoutes
   - JTRouterLib (from `../`)
 
 SPEC REPOS:
@@ -25,8 +24,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
-  JTRouterLib: 95b4e03f545cdd291c233c70865e35527766b1cb
+  JTRouterLib: 3a66fd32d41bbebf47f755baad31f10382d96e9e
 
-PODFILE CHECKSUM: 810c7c9249c20e2f6548f28f2fd450965fb9f899
+PODFILE CHECKSUM: 52423266ef06547019e1266029aa0c5923aabd20
 
 COCOAPODS: 1.10.0
