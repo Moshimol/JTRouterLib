@@ -7,6 +7,7 @@
 //
 
 #import "JTViewController.h"
+#import <JTRouterLib/JTRouter.h>
 
 @interface JTViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [JTRouter openURL:@"ciRouter://search/push/SearchVC" parameters:nil];
 }
 
 - (void)didReceiveMemoryWarning
