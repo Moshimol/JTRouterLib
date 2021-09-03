@@ -1,11 +1,10 @@
 lane :release_pod do |options|
-  #fastlane release_pod target_version:0.1.6 target_project:CIMiniProgram target_repo:https://gitlab.oneitfarm.com/basemodule-ios/cibasemodulespec.git
-  
+
   # 需要添加的tag值 
   target_version = options[:target_version]
 
   # 目标的项目
-  target_project = options[:target_project] || 'JTRouterLib.podspec'
+  target_project = options[:target_project] || 'JTRouterLib'
   
   # 目标的repo
   target_repo  = options[:target_repo] || 'https://github.com/Moshimol/JTPrivateLibs.git'
@@ -14,7 +13,7 @@ lane :release_pod do |options|
   
   spec_path = "#{target_project}.podspec"
   # git pull
-  git_pull 
+  # git_pull
   # 确认是 master 分支
   ensure_git_branch
   # 修改 spec 为即将发布的版本
