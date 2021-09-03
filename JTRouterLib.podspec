@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JTRouterLib'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '主要用于APP的路由'
 
 # This description is used to generate tags and improve search results.
