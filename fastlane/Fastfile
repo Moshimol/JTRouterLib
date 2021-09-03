@@ -7,7 +7,7 @@ lane :release_pod do |options|
   target_project = options[:target_project] || 'JTRouterLib'
   
   # 目标的repo
-  target_repo  = options[:target_repo] || 'https://github.com/Moshimol/JTPrivateLibs.git'
+  target_repo  = options[:target_repo] || 'https://github.com/Moshimol/JTPrivateLibs.git,https://github.com/CocoaPods/Specs.git'
 
   UI.message("target_version = #{target_version}  target_project 是#{target_project} target_repo是#{target_repo} 🚀，开始发包")
   
